@@ -15,7 +15,7 @@ public class ReverseString {
     public static String reverse(String e){
         char [] letters = new char [e.length()];
         
-        for(int i = 0; i<e.length(); i++){
+        for(int i = e.length()-1; i >= 0; i--){
             System.out.println(e.charAt(i));
         }
         return e;
